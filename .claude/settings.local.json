@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 draw_polaris_line.py)",
+      "Bash(cd *)",
+      "Bash(rm -rf venv)",
+      "Bash(python3 -m venv venv)",
+      "Bash(./venv/bin/pip install *)",
+      "Bash(/tmp/claude-1000/-mnt-d-Star-calibration-project/94c79b48-9e28-46be-b36a-ae1ec1867c00/scratchpad/venv/bin/pip config *)",
+      "Bash(env)"
+    ]
+  }
+}
