@@ -44,6 +44,10 @@ chaquopy {
             install("astropy")
             install("requests")
         }
+        // astropy reads its own data files from disk at import time (unit parser tables,
+        // IERS data). By default Chaquopy keeps packages inside the APK where plain file
+        // reads fail ("[Errno 2] ... generic_parsetab.py"), so unpack these to real files.
+        extractPackages("astropy", "astropy_iers_data")
     }
 }
 

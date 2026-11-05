@@ -1,0 +1,9 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.apk
+*.aab
+__pycache__/
+*.pyc
+.claude/
